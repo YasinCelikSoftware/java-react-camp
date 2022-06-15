@@ -5,7 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		
-		Member member = new Member(1, "Yasin", "Celik","1998" , "39016795112");
+		Member member = new Member(1, "Yasin", "Celik","1998" , "39016795127");
 		Game game = new Game("Valorant");
 		Game riseOnline = new Game("Rise Online");
 		Offer offer = new Offer("Yaz Indirimi", 25);
@@ -25,7 +25,7 @@ public class Main {
 		offerManager.addOffer(riseOnline, offer);
 		
 		EDevletManager eDevletManager = new EDevletManager();
-		eDevletManager.realityCheck("Yasin", "Celik", "1998", "39016795112", member);
+		eDevletManager.realityCheck("Yasin", "Celik", "1998", "39016795127", member);
 		
 	}
 
